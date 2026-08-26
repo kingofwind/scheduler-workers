@@ -1,0 +1,6 @@
+.task-runner/
+node_modules/
+*.log
+*.out.log
+*.err.log
+.DS_Store
