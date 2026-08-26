@@ -1,6 +1,6 @@
 ---
 name: scheduler-workers
-description: Concurrency-limited multi-task chain scheduler for CLI agents (main-agent event loop + detached headless workers). Use when: running multiple long-running tasks (e.g. training scripts) under a parallelism cap N, with ordered steps, exclusive/mutex segments, long blocking waits, real-time human-in-the-loop, or resumable runs. Defines chain format, concurrency-limited scheduling with instant slot refill, event loop, lock protocol, messages protocol, and marker/resume conventions. Cross-agent protocol; reference implementation tested on opencode (Windows PowerShell). 并发上限调度的多任务链框架（主 agent 事件循环 + 分离 headless worker）：按并行度 N 并行调度多个长时任务（如训练脚本），含顺序步骤、互斥段、长阻塞等待、人在环实时交互与断点续跑。定义链格式、调度协议、锁协议、messages 消息协议与续跑约定。
+description: "Concurrency-limited multi-task chain scheduler for CLI agents (main-agent event loop + detached headless workers). Use when: running multiple long-running tasks (e.g. training scripts) under a parallelism cap N, with ordered steps, exclusive/mutex segments, long blocking waits, real-time human-in-the-loop, or resumable runs. Defines chain format, concurrency-limited scheduling with instant slot refill, event loop, lock protocol, messages protocol, and marker/resume conventions. Cross-agent protocol; reference implementation tested on opencode (Windows PowerShell). 并发上限调度的多任务链框架（主 agent 事件循环 + 分离 headless worker）：按并行度 N 并行调度多个长时任务（如训练脚本），含顺序步骤、互斥段、长阻塞等待、人在环实时交互与断点续跑。定义链格式、调度协议、锁协议、messages 消息协议与续跑约定。"
 ---
 
 # scheduler-workers：并发上限调度的多任务链框架
